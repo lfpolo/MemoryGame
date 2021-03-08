@@ -20,6 +20,7 @@ struct Cardify: ViewModifier {
                 RoundedRectangle(cornerRadius: cornerRadius).fill()
             }
         }
+        //.rotation3DEffect(Angle.degrees(card.isFaceUp ? 0 : 180), axis: (0, 1, 0))
     }
     
     private let cornerRadius: CGFloat = 10
